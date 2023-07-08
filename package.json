@@ -1,0 +1,23 @@
+{
+  "name": "curso-ecmascript",
+  "version": "1.0.0",
+  "description": "EcmaScript Basic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccastro1992/ecmscript-basic.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript"
+  ],
+  "author": "Cristhian Castro <cristhianc10@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccastro1992/ecmscript-basic/issues"
+  },
+  "homepage": "https://github.com/ccastro1992/ecmscript-basic#readme"
+}
