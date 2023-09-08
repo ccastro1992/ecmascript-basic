@@ -18,9 +18,10 @@ function* getId() {
     let michiIds = []
     while (true) {
         let new_id = Math.floor(Math.random() * (100 - 1) + 1);
-        if (!michiIds.includes(new_id)) {
-            michiIds.push(new_id);
-            yield new_id;
+        let name = `Michi_${new_id}`;
+        if (!michiIds.includes(name)) {
+            michiIds.push(name);
+            yield name;
         }
     }
 }
